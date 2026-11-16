@@ -150,15 +150,15 @@ a {
   }
 
   .icon-theme-system {
-    --icon: url("theme-system.svg");
+    --icon: url("images/theme-system.svg");
   }
 
   .icon-theme-light {
-    --icon: url("theme-light.svg");
+    --icon: url("images/theme-light.svg");
   }
 
   .icon-theme-dark {
-    --icon: url("theme-dark.svg");
+    --icon: url("images/theme-dark.svg");
   }
 }
 
@@ -187,15 +187,15 @@ a {
   }
 
   .icon-mastodon {
-    --icon: url("mastodon.svg");
+    --icon: url("images/mastodon.svg");
   }
 
   .icon-github {
-    --icon: url("github.svg");
+    --icon: url("images/github.svg");
   }
 
   .icon-feed {
-    --icon: url("feed.svg");
+    --icon: url("images/feed.svg");
   }
 }
 
@@ -310,19 +310,19 @@ img[src$="#light"] {
 }
 
 .icon-enlarge {
-  --icon: url("enlarge.svg");
+  --icon: url("images/enlarge.svg");
 }
 
 .icon-prev {
-  --icon: url("chevron-left.svg");
+  --icon: url("images/chevron-left.svg");
 }
 
 .icon-next {
-  --icon: url("chevron-right.svg");
+  --icon: url("images/chevron-right.svg");
 }
 
 .icon-close {
-  --icon: url("close.svg");
+  --icon: url("images/close.svg");
 }
 
 .lightbox {
