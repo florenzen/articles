@@ -28,14 +28,20 @@ Use *Terminal → Run Task…*:
 
 ## Linting and formatting
 
-| Files                      | Linter / formatter           | Config                     |
-| -------------------------- | ---------------------------- | -------------------------- |
-| Markdown                   | markdownlint                 | `.markdownlint.json`       |
-| SCSS (`sass/`)             | stylelint, Prettier (format) | `.stylelintrc.json`        |
-| JavaScript (`static/*.js`) | ESLint, Prettier (format)    | `eslint.config.mjs`        |
-| Python (`scripts/`)        | Ruff (lint), Black (format)  | `ruff.toml`                |
-| HTML (`templates/`)        | djLint (lint and format)     | `.djlintrc`                |
-| Images (`content/`)        | `scripts/image-metadata.py`  | `[extra]` in `config.toml` |
+| Files                                                  | Linter / formatter                | Config                     |
+| ------------------------------------------------------ | --------------------------------- | -------------------------- |
+| Markdown                                               | markdownlint                      | `.markdownlint.json`       |
+| SCSS (`sass/`)                                         | stylelint, Prettier (format)      | `.stylelintrc.json`        |
+| JavaScript (`static/js/`, `eslint.config.mjs`)         | ESLint, Prettier (format)         | `eslint.config.mjs`        |
+| HTML (`templates/`)                                    | djLint (lint and format)          | `.djlintrc`                |
+| JSON and YAML (also `.djlintrc`, `.nsprc`)             | Prettier (format)                 | Prettier defaults          |
+| TOML (`config.toml`, `ruff.toml`)                      | Taplo (lint and format)           | Taplo defaults             |
+| GitHub workflows (`.github/workflows/`)                | actionlint                        | none                       |
+| Shell scripts (`.devcontainer/*.sh`)                   | ShellCheck (lint), shfmt (format) | `.editorconfig` (shfmt)    |
+| Dockerfile (`.devcontainer/Dockerfile`)                | hadolint                          | `.hadolint.yaml`           |
+| Python (`scripts/`)                                    | Ruff (lint), Black (format)       | `ruff.toml`                |
+| Images (`content/`)                                    | `scripts/image-metadata.py`       | `[extra]` in `config.toml` |
+| npm dependencies (`package.json`, `package-lock.json`) | npm audit (via better-npm-audit)  | `.nsprc` (exceptions)      |
 
 The tool versions are pinned in `package.json` and `requirements-dev.txt`. The devcontainer installs them, and the VS Code extensions, the pre-commit hook and CI all use these same versions. The checks run automatically on every `git commit` (installed by `pre-commit install` in `.devcontainer/post-create.sh`). Formatting a file in VS Code gives the same result as the commands below.
 
@@ -53,17 +59,19 @@ This runs every check on the whole repo, the same way CI does. pre-commit only s
 npx markdownlint-cli2 "**/*.md" "#node_modules" --fix       # Markdown
 npx stylelint "sass/**/*.scss" --fix                        # SCSS lint issues
 npx eslint . --fix                                          # JavaScript lint issues
-npx prettier --write "sass/**/*.scss" "**/*.{js,mjs}"       # SCSS and JavaScript formatting
+npx prettier --write "sass/**/*.scss" "**/*.{js,mjs,json,yml,yaml}" "!**/*-lock.json" .djlintrc .nsprc  # SCSS, JavaScript, JSON and YAML formatting
+npx taplo fmt                                               # TOML formatting
+shfmt --write .devcontainer                                 # shell script formatting
 ruff check --fix scripts                                    # Python lint issues
 black scripts                                               # Python formatting
 djlint templates --reformat                                 # template formatting
 ```
 
-Anything the `--fix` options can't repair has to be fixed by hand, including all `djlint --lint` findings and many ESLint ones (e.g. unused variables). Afterwards, run `pre-commit run --all-files` again.
+Anything these commands can't repair has to be fixed by hand, including all findings of `djlint --lint`, Taplo lint, actionlint, ShellCheck and hadolint, and many ESLint ones (e.g. unused variables). For a vulnerable npm package, update it or, if it can't be reached, add a documented exception with an expiry date to `.nsprc`. Afterwards, run `pre-commit run --all-files` again.
 
 ### JavaScript
 
-The scripts in `static/` are plain browser scripts without a build step: they are copied to the site as they are and loaded with `<script>`. `eslint.config.mjs` lints them as browser scripts with ESLint's recommended rules; Prettier does the formatting. In VS Code, the ESLint extension shows problems while you type and *Format Document* uses Prettier.
+The scripts in `static/js/` are plain browser scripts without a build step: they are copied to the site as they are and loaded with `<script>`. `eslint.config.mjs` lints them as browser scripts with ESLint's recommended rules; Prettier does the formatting. In VS Code, the ESLint extension shows problems while you type and *Format Document* uses Prettier.
 
 ### Python
 
@@ -88,15 +96,16 @@ Existing copyright entries are kept. The copyright year is taken from the photo'
 
 ```sh
 npx prettier --write sass/style.scss
-npx prettier --write static/lightbox.js
+npx prettier --write static/js/lightbox.js
 djlint templates/page.html --reformat
 ```
 
 ## CI
 
-- **Every push:** `.github/workflows/lint.yml` runs `pre-commit run --all-files`.
-- **Push to any branch other than `main`:** `.github/workflows/check.yml` runs `zola check --drafts`.
-- **Push to `main`:** `.github/workflows/deploy.yml` runs `zola check`, builds the site and deploys it to GitHub Pages.
+- **Push to `main`:** `.github/workflows/deploy.yml` runs the lint workflow (`.github/workflows/lint.yml`, which runs `pre-commit run --all-files`). Only if it passes does it run `zola check --skip-external-links`, build the site and deploy it to GitHub Pages. External links are left out so that a site that is down, or blocks CI, can't stop a deploy.
+- **Push to any other branch:** `.github/workflows/check.yml` runs the same lint workflow and, alongside it, `zola check --drafts`, including external links.
+
+Sites that block requests from CI are excluded from the link check in `[link_checker]` in `config.toml`.
 
 ## Updating Zola
 
