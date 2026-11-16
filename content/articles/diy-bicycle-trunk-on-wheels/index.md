@@ -93,6 +93,8 @@ Just plug in the wheels and *done!*
 
 If you'd also like to use the box without a lid, you can carefully drill out the rivets holding the hinges with a 5mm drill bit and replace them with screws, so the lid can be taken off. The same goes for the blue straps that hold the lid.
 
+![Trailer without the lid](trailer-without-lid.jpg)
+
 For the straps, M5&nbsp;×&nbsp;15mm screws, 16mm washers and M5 wing nuts do the job nicely:
 
 ![Strap fastened with a screw](string.jpg)

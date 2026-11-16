@@ -93,6 +93,8 @@ Noch die Laufräder anstecken und *fertig!*
 
 Wer die Kiste auch ohne Deckel benutzen möchte, kann die Nieten, mit denen die Scharniere angebracht sind, vorsichtig mit einem 5mm Bohrer ausbohren und durch Schrauben ersetzen, so dass der Deckel abgenommen werden kann. Das Gleiche gilt für die blauen Bänder, die den Deckel halten.
 
+![Anhänger ohne Deckel](trailer-without-lid.jpg)
+
 Um die Bänder zu halten, bieten sich M5&nbsp;×&nbsp;15mm Schrauben, 16mm Unterlegscheiben und M5 Flügelmuttern an:
 
 ![Befestigung des Bandes mit Schraube](string.jpg)
