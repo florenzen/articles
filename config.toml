@@ -16,6 +16,10 @@ smart_punctuation = true
 theme = "github-light"
 error_on_missing_language = true
 
+[link_checker]
+# Bot protection answers 403 to requests from CI runners (GitHub Actions).
+skip_prefixes = ["https://www.bauhaus.info/"]
+
 [translations]
 feed = "Feed"
 min_read = "min read"

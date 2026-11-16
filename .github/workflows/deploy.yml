@@ -32,8 +32,10 @@ jobs:
       - name: Install Zola
         run: sh .devcontainer/install-zola.sh
 
+      # External links are checked on other branches (check.yml), so a site
+      # that is down or blocks CI runners can't stop a deploy.
       - name: Check site
-        run: zola check
+        run: zola check --skip-external-links
 
       - name: Build site
         run: zola build
