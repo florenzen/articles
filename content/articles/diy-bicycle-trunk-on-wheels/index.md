@@ -2,7 +2,6 @@
 title = "A do-it-yourself bicycle trunk on wheels"
 date = 2026-11-09
 description = "Build instructions for a bicycle cargo trailer based on the Carry Freedom Y-Frame."
-draft = true
 +++
 
 Anyone who regularly goes shopping by bike knows the feeling: the panniers are, once again, three litres too small, yet another bag is dangling from the handlebar and swinging into the front spokes, or the far too stuffed rucksack is digging into your back. A car boot would be nice right now. If you're looking for a more flexible and cheaper answer to this problem than a cargo bike or a car, here are simple instructions for a bicycle trunk on wheels:

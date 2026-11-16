@@ -2,7 +2,6 @@
 title = "Do-it-yourself Fahrrad-Kofferraum auf Rädern"
 date = 2026-11-09
 description = "Selbstbauanleitung für einen Fahrrad-Lastenanhänger auf Basis des Carry Freedom Y-Frames."
-draft = true
 +++
 
 Wer öfter mit dem Fahrrad zum Einkaufen fährt, kennt das: die Packtaschen sind doch wieder drei Liter zu klein, schon wieder baumelt ein Beutel am Lenker und schlenkert in die vorderen Speichen oder der viel zu voll gestopfte Rucksack drückt. Ein Kofferraum wäre jetzt schön. Alle, die eine flexiblere und günstigere Lösung als ein Lastenfahrrad oder ein Auto für dieses Problem suchen, finden hier eine einfache Anleitung für den Fahrrad-Kofferraum auf Rädern:
