@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="126mm"
+   viewBox="-2 -4 160 126"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="plywood-board.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <metadata
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:creator><cc:Agent><dc:title>Florian Lorenzen</dc:title></cc:Agent></dc:creator>
+        <dc:rights><cc:Agent><dc:title>© 2026 Florian Lorenzen. Licensed under CC BY 4.0.</dc:title></cc:Agent></dc:rights>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.89887065"
+     inkscape:cx="276.45802"
+     inkscape:cy="226.3952"
+     inkscape:window-width="1512"
+     inkscape:window-height="840"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.516668,-88.635417)">
+    <g
+       fill="none"
+       fill-rule="evenodd"
+       id="DrawingContent"
+       stroke="#000000"
+       stroke-linecap="square"
+       stroke-linejoin="bevel"
+       stroke-width="1"
+       transform="matrix(0.1,0,0,0.1,-25.579472,71.788624)">
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g1">
+        <path
+           d="M 620,-480 V 480 H -620 V -480 H 620"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path1" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g2">
+        <path
+           d="m 613,0 h -4 -82 82 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39 h 4"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path2" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g3">
+        <path
+           d="m 609,0 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path3" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g4">
+        <path
+           d="m 39,-370 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path4" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g5">
+        <path
+           d="m -527,0 h -4 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39 h -82 82 4"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path5" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g7">
+        <path
+           d="m -531,0 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path7" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g9">
+        <path
+           d="m 43,370 h -4 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39 h -82 82 4"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path9" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g11">
+        <path
+           d="m 43,-370 h -4 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39 h -82 82 4"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path11" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g13">
+        <path
+           d="m 39,370 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path13" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g15">
+        <path
+           d="M 570,43 V -43 43"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path15" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g17">
+        <path
+           d="M -570,43 V -43 43"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path17" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g19">
+        <path
+           d="m 0,413 v -86 86"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path19" />
+      </g>
+      <g
+         fill="#f1f3f5"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="none"
+         transform="translate(1456.01,882.458)"
+         id="g21">
+        <path
+           d="m 0,-327 v -86 86"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path21" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g23">
+        <path
+           d="M -620,480 V -480"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path23" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g25">
+        <path
+           d="M 620,480 H -620"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path25" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g27">
+        <path
+           d="M -620,-480 H 620"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path27" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g29">
+        <path
+           d="M 620,-480 V 480"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path29" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g30">
+        <path
+           d="m 39,-370 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path30" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g31">
+        <path
+           d="m -531,0 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path31" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g33">
+        <path
+           d="m 609,0 c 0,21.5391 -17.461,39 -39,39 -21.539,0 -39,-17.4609 -39,-39 0,-21.5391 17.461,-39 39,-39 21.539,0 39,17.4609 39,39"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path33" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="7"
+         transform="translate(1456.01,882.458)"
+         id="g35">
+        <path
+           d="m 39,370 c 0,21.539 -17.4609,39 -39,39 -21.5391,0 -39,-17.461 -39,-39 0,-21.539 17.4609,-39 39,-39 21.5391,0 39,17.461 39,39"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path35" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g37">
+        <path
+           d="m -527,0 h -86"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path37" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g39">
+        <path
+           d="M -570,43 V -43"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path39" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g40">
+        <path
+           d="M 43,-370 H -43"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path40" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g41">
+        <path
+           d="m 0,-327 v -86"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path41" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g43">
+        <path
+           d="M 613,0 H 527"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path43" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g45">
+        <path
+           d="M 570,43 V -43"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path45" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g47">
+        <path
+           d="M 43,370 H -43"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path47" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#000000"
+         stroke-dasharray="120, 60, 60, 60"
+         stroke-dashoffset="0"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="5"
+         transform="translate(1456.01,882.458)"
+         id="g49">
+        <path
+           d="M 0,413 V 327"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path49" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="rotate(-90,597.031,23.054)"
+         id="g50">
+        <path
+           d="M 26.832031,56.671902 H 7.1445312 V 52.58987 q 2.0507813,-1.757812 4.1015628,-3.515625 2.070312,-1.757812 3.847656,-3.496093 3.75,-3.632813 5.136719,-5.761719 1.386718,-2.148438 1.386718,-4.628906 0,-2.265625 -1.503906,-3.535157 -1.484375,-1.289062 -4.160156,-1.289062 -1.777344,0 -3.847656,0.625 -2.070313,0.625 -4.042969,1.914062 H 7.8671875 v -4.101562 q 1.3867188,-0.683594 3.6914065,-1.25 2.324219,-0.566406 4.492187,-0.566406 4.472656,0 7.011719,2.167968 2.539062,2.148438 2.539062,5.839844 0,1.660156 -0.429687,3.105469 -0.410156,1.425781 -1.230469,2.714844 -0.761719,1.210937 -1.796875,2.382812 -1.015625,1.171875 -2.480469,2.597656 -2.089843,2.050782 -4.316406,3.984375 -2.226562,1.914063 -4.160156,3.554688 h 15.644531 z m 26.09375,-8.183594 h -4.316406 v 8.183594 h -3.75 V 48.488308 H 30.933594 V 43.99612 L 45.015625,27.58987 h 3.59375 v 17.773438 h 4.316406 z m -8.066406,-3.125 v -13.125 l -11.269531,13.125 z M 77.652344,42.12112 q 0,7.832032 -2.460938,11.503907 Q 72.75,57.27737 67.59375,57.27737 q -5.234375,0 -7.65625,-3.710937 -2.402344,-3.710938 -2.402344,-11.40625 0,-7.753906 2.441406,-11.445313 2.441407,-3.710937 7.617188,-3.710937 5.234375,0 7.636719,3.769531 2.421875,3.75 2.421875,11.347656 z m -5.136719,8.867188 q 0.683594,-1.582031 0.917969,-3.710938 0.253906,-2.148437 0.253906,-5.15625 0,-2.96875 -0.253906,-5.15625 -0.234375,-2.1875 -0.9375,-3.710937 -0.683594,-1.503906 -1.875,-2.265625 -1.171875,-0.761719 -3.027344,-0.761719 -1.835938,0 -3.046875,0.761719 -1.191406,0.761719 -1.894531,2.304687 -0.664063,1.445313 -0.917969,3.769532 Q 61.5,39.386745 61.5,42.160183 q 0,3.046875 0.214844,5.097656 0.214843,2.050781 0.917968,3.671875 0.644532,1.523438 1.816407,2.324219 1.191406,0.800781 3.144531,0.800781 1.835937,0 3.046875,-0.761719 1.210937,-0.761718 1.875,-2.304687 z"
+           id="text49"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="240" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g51">
+        <path
+           d="M -807.281,0 V -480 M -620,-480 H -835.281 M -613,0 h -222.281"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path51" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(648.727,402.458)"
+         id="g53">
+        <path
+           d="M 0,0 -5.83333,35 H 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path53" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(648.727,882.458)"
+         id="g55">
+        <path
+           d="M 0,0 5.83333,-35 H -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path55" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="translate(682.737,258.896)"
+         id="g56">
+        <path
+           d="M 26.832031,56.671902 H 7.1445312 V 52.58987 q 2.0507813,-1.757812 4.1015628,-3.515625 2.070312,-1.757812 3.847656,-3.496093 3.75,-3.632813 5.136719,-5.761719 1.386718,-2.148438 1.386718,-4.628906 0,-2.265625 -1.503906,-3.535157 -1.484375,-1.289062 -4.160156,-1.289062 -1.777344,0 -3.847656,0.625 -2.070313,0.625 -4.042969,1.914062 H 7.8671875 v -4.101562 q 1.3867188,-0.683594 3.6914065,-1.25 2.324219,-0.566406 4.492187,-0.566406 4.472656,0 7.011719,2.167968 2.539062,2.148438 2.539062,5.839844 0,1.660156 -0.429687,3.105469 -0.410156,1.425781 -1.230469,2.714844 -0.761719,1.210937 -1.796875,2.382812 -1.015625,1.171875 -2.480469,2.597656 -2.089843,2.050782 -4.316406,3.984375 -2.226562,1.914063 -4.160156,3.554688 H 26.832031 Z M 52.027344,47.43362 q 0,2.03125 -0.742188,3.886719 -0.742187,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492187,0.722656 -2.382813,0 -4.589844,-0.507812 -2.207031,-0.488281 -3.730469,-1.191406 v -4.121094 h 0.273438 q 1.601562,1.015625 3.75,1.738281 2.148437,0.703125 4.21875,0.703125 1.386718,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289062,-2.011719 0.449219,-1.171875 0.449219,-2.714844 0,-1.503906 -0.527344,-2.539062 -0.507812,-1.035157 -1.425781,-1.660157 -1.015625,-0.742187 -2.480469,-1.035156 -1.445312,-0.3125 -3.242187,-0.3125 -1.71875,0 -3.320313,0.234375 -1.582031,0.234375 -2.734375,0.46875 V 27.58987 h 17.5 v 3.417969 H 38.101562 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878907,-0.03906 1.523438,-0.03906 2.363281,0 4.140625,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z"
+           id="text55"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="25" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g57">
+        <path
+           d="M -500,-548.813 H -781.892 M -620,-480 v -96.813 M -570,-43 v -533.813"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path56" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(836.007,333.646)"
+         id="g58">
+        <path
+           d="M 0,0 -35,-5.83333 V 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path57" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(886.007,333.646)"
+         id="g59">
+        <path
+           d="M 0,0 35,5.83333 V -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path59" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="rotate(-90,562.655,-81.322)"
+         id="g60">
+        <path
+           d="m 26.597656,47.43362 q 0,2.03125 -0.742187,3.886719 -0.742188,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492188,0.722656 -2.382812,0 -4.589843,-0.507812 -2.2070317,-0.488281 -3.7304693,-1.191406 v -4.121094 h 0.2734375 q 1.6015626,1.015625 3.7499998,1.738281 2.148438,0.703125 4.21875,0.703125 1.386719,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289063,-2.011719 0.449218,-1.171875 0.449218,-2.714844 0,-1.503906 -0.527343,-2.539062 -0.507813,-1.035157 -1.425782,-1.660157 -1.015625,-0.742187 -2.480468,-1.035156 -1.445313,-0.3125 -3.242188,-0.3125 -1.71875,0 -3.320312,0.234375 -1.582031,0.234375 -2.7343752,0.46875 V 27.58987 H 26.402344 v 3.417969 H 12.671875 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878906,-0.03906 1.523438,-0.03906 2.363281,0 4.140624,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z m 25.429688,0 q 0,2.03125 -0.742188,3.886719 -0.742187,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492187,0.722656 -2.382813,0 -4.589844,-0.507812 -2.207031,-0.488281 -3.730469,-1.191406 v -4.121094 h 0.273438 q 1.601562,1.015625 3.75,1.738281 2.148437,0.703125 4.21875,0.703125 1.386718,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289062,-2.011719 0.449219,-1.171875 0.449219,-2.714844 0,-1.503906 -0.527344,-2.539062 -0.507812,-1.035157 -1.425781,-1.660157 -1.015625,-0.742187 -2.480469,-1.035156 -1.445312,-0.3125 -3.242187,-0.3125 -1.71875,0 -3.320313,0.234375 -1.582031,0.234375 -2.734375,0.46875 V 27.58987 h 17.5 v 3.417969 H 38.101562 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878907,-0.03906 1.523438,-0.03906 2.363281,0 4.140625,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z"
+           id="text59"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="55" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g61">
+        <path
+           d="M -737.281,-370 V -480 M -620,-480 H -765.281 M -43,-370 h -722.281"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path60" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(718.727,402.458)"
+         id="g62">
+        <path
+           d="M 0,0 -5.83333,35 H 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path61" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(718.727,512.458)"
+         id="g63">
+        <path
+           d="M 0,0 5.83333,-35 H -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path63" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="translate(1116.21,211.464)"
+         id="g64">
+        <path
+           d="m 24.273437,42.667995 q 0.9375,0.839844 1.542969,2.109375 0.605469,1.269532 0.605469,3.28125 0,1.992188 -0.722656,3.652344 -0.722657,1.660156 -2.03125,2.890625 -1.464844,1.367188 -3.457032,2.03125 -1.972656,0.644531 -4.335937,0.644531 -2.421875,0 -4.765625,-0.585937 -2.34375,-0.566406 -3.8476563,-1.25 v -4.082031 h 0.2929688 q 1.6601563,1.09375 3.9062505,1.816406 2.246093,0.722656 4.335937,0.722656 1.230469,0 2.617187,-0.410156 1.386719,-0.410156 2.246094,-1.210938 0.898438,-0.859375 1.328125,-1.894531 0.449219,-1.035156 0.449219,-2.617187 0,-1.5625 -0.507813,-2.578125 -0.488281,-1.035157 -1.367187,-1.621094 -0.878906,-0.605469 -2.128906,-0.820313 -1.25,-0.234375 -2.695313,-0.234375 h -1.757812 v -3.242187 h 1.367187 q 2.96875,0 4.726563,-1.230469 1.777343,-1.25 1.777343,-3.632812 0,-1.054688 -0.449218,-1.835938 -0.449219,-0.800781 -1.25,-1.308594 Q 19.3125,30.753933 18.355469,30.55862 17.398437,30.363308 16.1875,30.363308 q -1.855469,0 -3.945312,0.664062 -2.089844,0.664063 -3.945313,1.875 H 8.1015625 v -4.082031 q 1.3867188,-0.683594 3.6914065,-1.25 2.324219,-0.585937 4.492187,-0.585937 2.128906,0 3.75,0.390625 1.621094,0.390625 2.929688,1.25 1.40625,0.9375 2.128906,2.265625 0.722656,1.328125 0.722656,3.105468 0,2.421875 -1.71875,4.238282 -1.699219,1.796875 -4.023437,2.265625 v 0.273437 q 0.9375,0.15625 2.148437,0.664063 1.210938,0.488281 2.050781,1.230468 z M 50.601562,56.671902 H 34.859375 v -2.96875 h 6.054687 V 34.210964 h -6.054687 v -2.65625 q 1.230469,0 2.636719,-0.195312 1.40625,-0.214844 2.128906,-0.605469 0.898437,-0.488281 1.40625,-1.230469 0.527344,-0.761719 0.605469,-2.03125 h 3.027343 v 26.210938 h 5.9375 z M 77.652344,42.12112 q 0,7.832032 -2.460938,11.503907 Q 72.75,57.27737 67.59375,57.27737 q -5.234375,0 -7.65625,-3.710937 -2.402344,-3.710938 -2.402344,-11.40625 0,-7.753906 2.441406,-11.445313 2.441407,-3.710937 7.617188,-3.710937 5.234375,0 7.636719,3.769531 2.421875,3.75 2.421875,11.347656 z m -5.136719,8.867188 q 0.683594,-1.582031 0.917969,-3.710938 0.253906,-2.148437 0.253906,-5.15625 0,-2.96875 -0.253906,-5.15625 -0.234375,-2.1875 -0.9375,-3.710937 -0.683594,-1.503906 -1.875,-2.265625 -1.171875,-0.761719 -3.027344,-0.761719 -1.835938,0 -3.046875,0.761719 -1.191406,0.761719 -1.894531,2.304687 -0.664063,1.445313 -0.917969,3.769532 Q 61.5,39.386745 61.5,42.160183 q 0,3.046875 0.214844,5.097656 0.214843,2.050781 0.917968,3.671875 0.644532,1.523438 1.816407,2.324219 1.191406,0.800781 3.144531,0.800781 1.835937,0 3.046875,-0.761719 1.210937,-0.761718 1.875,-2.304687 z"
+           id="text63"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="310" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g65">
+        <path
+           d="M 0,-596.244 H -620 M -620,-480 V -624.244 M 0,-413 v -211.244"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path64" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(836.007,286.214)"
+         id="g66">
+        <path
+           d="M 0,0 35,5.83333 V -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path65" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,286.214)"
+         id="g67">
+        <path
+           d="M 0,0 -35,-5.83333 V 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path67" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="rotate(-90,682.4755,178.4985)"
+         id="g68">
+        <path
+           d="m 27.496094,48.488308 h -4.316407 v 8.183594 h -3.75 V 48.488308 H 5.5039062 V 43.99612 L 19.585937,27.58987 h 3.59375 v 17.773438 h 4.316407 z m -8.066407,-3.125 v -13.125 l -11.2695307,13.125 z m 32.832032,11.308594 h -19.6875 V 52.58987 q 2.050781,-1.757812 4.101562,-3.515625 2.070313,-1.757812 3.847656,-3.496093 3.75,-3.632813 5.136719,-5.761719 1.386719,-2.148438 1.386719,-4.628906 0,-2.265625 -1.503906,-3.535157 -1.484375,-1.289062 -4.160157,-1.289062 -1.777343,0 -3.847656,0.625 -2.070312,0.625 -4.042969,1.914062 h -0.195312 v -4.101562 q 1.386719,-0.683594 3.691406,-1.25 2.324219,-0.566406 4.492188,-0.566406 4.472656,0 7.011718,2.167968 2.539063,2.148438 2.539063,5.839844 0,1.660156 -0.429688,3.105469 -0.410156,1.425781 -1.230468,2.714844 -0.761719,1.210937 -1.796875,2.382812 -1.015625,1.171875 -2.480469,2.597656 -2.089844,2.050782 -4.316406,3.984375 -2.226563,1.914063 -4.160157,3.554688 H 52.261719 Z M 77.457031,47.43362 q 0,2.03125 -0.742187,3.886719 -0.742188,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492188,0.722656 -2.382812,0 -4.589844,-0.507812 -2.207031,-0.488281 -3.730468,-1.191406 v -4.121094 h 0.273437 q 1.601563,1.015625 3.75,1.738281 2.148438,0.703125 4.21875,0.703125 1.386719,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289063,-2.011719 0.449218,-1.171875 0.449218,-2.714844 0,-1.503906 -0.527343,-2.539062 -0.507813,-1.035157 -1.425782,-1.660157 -1.015625,-0.742187 -2.480468,-1.035156 -1.445313,-0.3125 -3.242188,-0.3125 -1.71875,0 -3.320312,0.234375 -1.582032,0.234375 -2.734375,0.46875 V 27.58987 h 17.5 v 3.417969 H 63.53125 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878906,-0.03906 1.523437,-0.03906 2.363282,0 4.140625,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z"
+           id="text67"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="425" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g69">
+        <path
+           d="M -877.281,370 V -480 M -620,-480 H -905.281 M -43,370 h -862.281"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path69" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(578.727,402.458)"
+         id="g71">
+        <path
+           d="M 0,0 -5.83333,35 H 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path71" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(578.727,1252.46)"
+         id="g73">
+        <path
+           d="M 0,0 5.83333,-35 H -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path73" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="translate(1397.08,141.464)"
+         id="g74">
+        <path
+           d="m 26.597656,47.43362 q 0,2.03125 -0.742187,3.886719 -0.742188,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492188,0.722656 -2.382812,0 -4.589843,-0.507812 -2.2070317,-0.488281 -3.7304693,-1.191406 v -4.121094 h 0.2734375 q 1.6015626,1.015625 3.7499998,1.738281 2.148438,0.703125 4.21875,0.703125 1.386719,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289063,-2.011719 0.449218,-1.171875 0.449218,-2.714844 0,-1.503906 -0.527343,-2.539062 -0.507813,-1.035157 -1.425782,-1.660157 -1.015625,-0.742187 -2.480468,-1.035156 -1.445313,-0.3125 -3.242188,-0.3125 -1.71875,0 -3.320312,0.234375 -1.582031,0.234375 -2.7343752,0.46875 V 27.58987 H 26.402344 v 3.417969 H 12.671875 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878906,-0.03906 1.523438,-0.03906 2.363281,0 4.140624,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z m 25.625,-7.050781 q 0,3.808594 -0.878906,6.914063 -0.859375,3.105468 -2.617188,5.292968 -1.777343,2.226563 -4.453125,3.4375 -2.675781,1.210938 -6.289062,1.210938 -1.015625,0 -1.914063,-0.117188 -0.898437,-0.09766 -1.601562,-0.332031 V 53.05862 h 0.195312 q 0.566407,0.292969 1.601563,0.566407 1.035156,0.253906 2.304687,0.253906 4.316407,0 6.757813,-2.578125 2.460937,-2.597656 2.851562,-7.148438 -1.816406,1.09375 -3.417968,1.5625 -1.601563,0.46875 -3.496094,0.46875 -1.796875,0 -3.261719,-0.351562 -1.445312,-0.351563 -2.910156,-1.367188 -1.71875,-1.191406 -2.597656,-3.027343 -0.859375,-1.835938 -0.859375,-4.394532 0,-4.453125 2.929687,-7.246093 2.929688,-2.792969 7.148438,-2.792969 2.109375,0 3.90625,0.664062 1.796875,0.644532 3.144531,1.953125 1.660156,1.621094 2.558594,4.179688 0.898437,2.539062 0.898437,6.582031 z m -3.945312,-0.839844 q 0,-3.027343 -0.625,-4.863281 -0.625,-1.835937 -1.71875,-2.851562 -0.917969,-0.878907 -1.972657,-1.25 -1.054687,-0.390625 -2.285156,-0.390625 -2.8125,0 -4.453125,1.757812 -1.621094,1.757813 -1.621094,4.941406 0,1.855469 0.527344,3.027344 0.527344,1.171875 1.777344,2.050781 0.878906,0.605469 1.933594,0.820313 1.054687,0.195312 2.34375,0.195312 1.523437,0 3.085937,-0.410156 1.5625,-0.410156 2.929688,-1.191406 0.01953,-0.410156 0.03906,-0.800781 0.03906,-0.410157 0.03906,-1.035157 z m 29.179687,7.890625 q 0,2.03125 -0.742187,3.886719 -0.742188,1.855469 -2.03125,3.125 -1.40625,1.367188 -3.359375,2.109375 -1.933594,0.722656 -4.492188,0.722656 -2.382812,0 -4.589844,-0.507812 -2.207031,-0.488281 -3.730468,-1.191406 v -4.121094 h 0.273437 q 1.601563,1.015625 3.75,1.738281 2.148438,0.703125 4.21875,0.703125 1.386719,0 2.675781,-0.390625 1.308594,-0.390625 2.324219,-1.367187 0.859375,-0.839844 1.289063,-2.011719 0.449218,-1.171875 0.449218,-2.714844 0,-1.503906 -0.527343,-2.539062 -0.507813,-1.035157 -1.425782,-1.660157 -1.015625,-0.742187 -2.480468,-1.035156 -1.445313,-0.3125 -3.242188,-0.3125 -1.71875,0 -3.320312,0.234375 -1.582032,0.234375 -2.734375,0.46875 V 27.58987 h 17.5 v 3.417969 H 63.53125 v 7.734375 q 0.839844,-0.07813 1.71875,-0.117187 0.878906,-0.03906 1.523437,-0.03906 2.363282,0 4.140625,0.410156 1.777344,0.390625 3.261719,1.40625 1.5625,1.074219 2.421875,2.773438 0.859375,1.699219 0.859375,4.257812 z"
+           id="text73"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="595" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g75">
+        <path
+           d="M 570,-666.244 H -620 M -620,-480 V -694.244 M 570,-43 v -651.244"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path75" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(836.007,216.214)"
+         id="g76">
+        <path
+           d="M 0,0 35,5.83333 V -5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path76" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(2026.01,216.214)"
+         id="g77">
+        <path
+           d="M 0,0 -35,-5.83333 V 5.83333 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path77" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="translate(975.355,913.901)"
+         id="g78">
+        <path
+           d="m 21.675781,41.02737 q 1.933594,2.402344 1.933594,5.410157 0,3.554687 -2.539063,6.074218 -2.519531,2.519532 -6.074218,2.519532 -2.96875,0 -5.3906252,-1.875 L 8.4335938,54.30862 7.0859375,52.960964 8.2382813,51.789089 q -1.8359376,-2.363281 -1.8359376,-5.351562 0,-3.574219 2.5000001,-6.09375 2.5195312,-2.519532 6.0937502,-2.519532 3.007812,0 5.332031,1.855469 l 1.191406,-1.171875 1.367188,1.367188 z m -2.714844,0.03906 q -1.777343,-1.308594 -3.964843,-1.308594 -2.734375,0 -4.707031,1.972656 -1.9726567,1.953125 -1.9726567,4.707032 0,2.1875 1.328125,3.945312 z m -8.007812,10.683594 q 1.835938,1.367187 4.042969,1.367187 2.753906,0 4.707031,-1.972656 1.972656,-1.972656 1.972656,-4.707031 0,-2.265625 -1.347656,-4.003907 z m 35.273437,-9.082032 q 0.9375,0.839844 1.542969,2.109375 0.605469,1.269532 0.605469,3.28125 0,1.992188 -0.722656,3.652344 -0.722657,1.660156 -2.03125,2.890625 -1.464844,1.367188 -3.457032,2.03125 -1.972656,0.644531 -4.335937,0.644531 -2.421875,0 -4.765625,-0.585937 -2.34375,-0.566406 -3.847656,-1.25 v -4.082031 h 0.292968 q 1.660157,1.09375 3.90625,1.816406 2.246094,0.722656 4.335938,0.722656 1.230469,0 2.617187,-0.410156 1.386719,-0.410156 2.246094,-1.210938 0.898438,-0.859375 1.328125,-1.894531 0.449219,-1.035156 0.449219,-2.617187 0,-1.5625 -0.507813,-2.578125 -0.488281,-1.035157 -1.367187,-1.621094 -0.878906,-0.605469 -2.128906,-0.820313 -1.25,-0.234375 -2.695313,-0.234375 h -1.757812 v -3.242187 h 1.367187 q 2.96875,0 4.726563,-1.230469 1.777343,-1.25 1.777343,-3.632812 0,-1.054688 -0.449218,-1.835938 -0.449219,-0.800781 -1.25,-1.308594 -0.839844,-0.507812 -1.796875,-0.703125 -0.957032,-0.195312 -2.167969,-0.195312 -1.855469,0 -3.945313,0.664062 -2.089843,0.664063 -3.945312,1.875 h -0.195313 v -4.082031 q 1.386719,-0.683594 3.691407,-1.25 2.324218,-0.585937 4.492187,-0.585937 2.128906,0 3.75,0.390625 1.621094,0.390625 2.929688,1.25 1.40625,0.9375 2.128906,2.265625 0.722656,1.328125 0.722656,3.105468 0,2.421875 -1.71875,4.238282 -1.699219,1.796875 -4.023437,2.265625 v 0.273437 q 0.9375,0.15625 2.148437,0.664063 1.210938,0.488281 2.050781,1.230468 z m 27.949219,-2.285156 q 0,3.808594 -0.878906,6.914063 -0.859375,3.105468 -2.617188,5.292968 -1.777343,2.226563 -4.453125,3.4375 -2.675781,1.210938 -6.289062,1.210938 -1.015625,0 -1.914063,-0.117188 Q 57.125,57.023464 56.421875,56.789089 V 53.05862 h 0.195312 q 0.566407,0.292969 1.601563,0.566407 1.035156,0.253906 2.304687,0.253906 4.316407,0 6.757813,-2.578125 2.460937,-2.597656 2.851562,-7.148438 -1.816406,1.09375 -3.417968,1.5625 -1.601563,0.46875 -3.496094,0.46875 -1.796875,0 -3.261719,-0.351562 -1.445312,-0.351563 -2.910156,-1.367188 -1.71875,-1.191406 -2.597656,-3.027343 -0.859375,-1.835938 -0.859375,-4.394532 0,-4.453125 2.929687,-7.246093 2.929688,-2.792969 7.148438,-2.792969 2.109375,0 3.90625,0.664062 1.796875,0.644532 3.144531,1.953125 1.660156,1.621094 2.558594,4.179688 0.898437,2.539062 0.898437,6.582031 z m -3.945312,-0.839844 q 0,-3.027343 -0.625,-4.863281 -0.625,-1.835937 -1.71875,-2.851562 -0.917969,-0.878907 -1.972657,-1.25 -1.054687,-0.390625 -2.285156,-0.390625 -2.8125,0 -4.453125,1.757812 -1.621094,1.757813 -1.621094,4.941406 0,1.855469 0.527344,3.027344 0.527344,1.171875 1.777344,2.050781 0.878906,0.605469 1.933594,0.820313 1.054687,0.195312 2.34375,0.195312 1.523437,0 3.085937,-0.410156 1.5625,-0.410156 2.929688,-1.191406 0.01953,-0.410156 0.03906,-0.800781 0.03906,-0.410157 0.03906,-1.035157 z"
+           id="text77"
+           style="font-size:40px;font-family:osifont;fill:#212529;stroke:none"
+           aria-label="⌀39" />
+      </g>
+      <g
+         fill="none"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(1456.01,882.458)"
+         id="g79">
+        <path
+           d="m -635.935,-86.7964 146.794,193.2394 m 91.024,0 h -91.024"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path79" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(909.599,913.514)"
+         id="g81">
+        <path
+           d="M 0,0 16.5266,31.399 25.8167,24.3418 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path81" />
+      </g>
+      <g
+         fill="#212529"
+         fill-opacity="1"
+         font-family="'.AppleSystemUIFont'"
+         font-size="45.8611px"
+         font-style="normal"
+         font-weight="400"
+         stroke="#212529"
+         stroke-linecap="round"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="3.5"
+         transform="translate(862.416,851.403)"
+         id="g83">
+        <path
+           d="m 0,0 -16.5266,-31.399 -9.2901,7.0572 L 0,0"
+           fill-rule="evenodd"
+           vector-effect="none"
+           id="path83" />
+      </g>
+    </g>
+  </g>
+</svg>

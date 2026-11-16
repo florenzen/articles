@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  {#- Language switcher target: the translation of the current page/section if
+    one exists, otherwise the home page of the other language. #}
+  {%- if lang == "de" %}{% set other_lang = "en" %}
+  {% else %}
+    {% set other_lang = "de" %}
+  {% endif %}
+  {%- set other_url = get_url(path="@/_index.md", lang=other_lang) %}
+  {%- if page %}{% set translations = page.translations %}
+  {%- elif section %}{% set translations = section.translations %}
+  {%- else %}{% set translations = [] %}
+  {% endif %}
+  {%- for t in translations %}
+    {% if t.lang == other_lang %}
+      {% set_global other_url = t.permalink %}
+    {% endif %}
+  {% endfor %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    // Apply the saved theme before the first paint to avoid a flash.
+    try {
+      var theme = localStorage.getItem("theme");
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch (e) {}
+    </script>
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    {%- if page?.description %}
+      <meta name="description" content="{{ page?.description }}">
+    {%- elif config.description %}
+      <meta name="description" content="{{ config.description }}">
+    {%- endif %}
+    {%- for t in translations %}
+      {% if t.lang != lang %}
+        <link rel="alternate"
+              hreflang="{{ t.lang }}"
+              href="{{ t.permalink | safe }}">
+      {%- endif %}
+    {% endfor %}
+    <link rel="stylesheet"
+          href="{{ get_url(path='style.css', cachebust=true) }}">
+    <link rel="alternate"
+          type="application/atom+xml"
+          title="{{ config.title }}"
+          href="{{ get_url(path='atom.xml', lang=lang, trailing_slash=false) }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title"
+         href="{{ get_url(path='@/_index.md', lang=lang) }}">{{ config.title }}</a>
+      <nav>
+        <span class="lang-switch">
+          {%- for l in ["de", "en"] %}
+            {%- if not loop.first %}<span aria-hidden="true">|</span>{% endif %}
+            {%- if l == lang %}
+              <span class="current" aria-current="true">{{ l | upper }}</span>
+            {%- else %}
+              <a href="{{ other_url | safe }}"
+                 hreflang="{{ l }}"
+                 lang="{{ l }}"
+                 title="{{ trans(key='other_language', lang=lang) }}"
+                 aria-label="{{ trans(key='other_language', lang=lang) }}">{{ l | upper }}</a>
+            {%- endif %}
+          {%- endfor %}
+        </span>
+        <span class="theme-switch"
+              role="radiogroup"
+              aria-label="{{ trans(key='theme', lang=lang) }}">
+          {%- for t in ["system", "light", "dark"] %}
+            {%- set label = trans(key="theme_" ~ t, lang=lang) %}
+            <label title="{{ label }}">
+              <input type="radio" name="theme" value="{{ t }}" aria-label="{{ label }}">
+              <span class="icon icon-theme-{{ t }}"></span>
+            </label>
+          {%- endfor %}
+        </span>
+      </nav>
+      <script>
+      (function () {
+        var root = document.documentElement;
+        var current = root.dataset.theme || "system";
+        document.querySelectorAll('.theme-switch input').forEach(function (input) {
+          input.checked = input.value === current;
+          input.addEventListener("change", function () { setTheme(input.value); });
+        });
+        function setTheme(theme) {
+          if (theme === "system") delete root.dataset.theme;
+          else root.dataset.theme = theme;
+          try {
+            if (theme === "system") localStorage.removeItem("theme");
+            else localStorage.setItem("theme", theme);
+          } catch (e) {}
+        }
+      })();
+      </script>
+    </header>
+    <main>
+      {% block content %}
+      {% endblock content %}
+    </main>
+    <footer class="site-footer">
+      © {{ now() | date(format="%Y") }} {{ config.extra.author }} - Licensed under <a href="{{ config.extra.license_url }}">{{ config.extra.license }}</a> - <a href="{{ get_url(path='@/privacy.md', lang=lang) }}">{{ trans(key='privacy', lang=lang) }}</a>
+      <div class="social">
+        <a class="icon icon-mastodon"
+           href="https://mastodon.social/@florian_lorenzen"
+           rel="me"
+           aria-label="Mastodon"
+           title="Mastodon"></a>
+        <a class="icon icon-github"
+           href="https://github.com/florenzen"
+           aria-label="GitHub"
+           title="GitHub"></a>
+        <a class="icon icon-feed"
+           href="{{ get_url(path='atom.xml', lang=lang, trailing_slash=false) }}"
+           aria-label="{{ trans(key='feed', lang=lang) }}"
+           title="{{ trans(key='feed', lang=lang) }}"></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "Zola articles",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "features": {
+    // Keep the major version in sync with .github/workflows/lint.yml.
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    }
+  },
+  "postCreateCommand": "sh .devcontainer/post-create.sh",
+  "forwardPorts": [1111],
+  "portsAttributes": {
+    "1111": {
+      "label": "zola serve",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tamasfe.even-better-toml",
+        "DavidAnson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-german",
+        "samuelcolvin.jinjahtml",
+        "monosans.djlint",
+        "stylelint.vscode-stylelint",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "charliermarsh.ruff",
+        "ms-python.black-formatter",
+        "timonwong.shellcheck",
+        "mkhl.shfmt",
+        "exiasr.hadolint",
+        "github.vscode-github-actions"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

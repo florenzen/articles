@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ trans(key="not_found", lang=lang) }}</h1>
+  <p><a href="{{ get_url(path='@/_index.md', lang=lang) }}">{{ trans(key="back_to_list", lang=lang) }}</a></p>
+{% endblock content %}

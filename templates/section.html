@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ section.title }} | {{ config.title }}{% endblock title %}
+{% block content %}
+  <h1>{{ section.title }}</h1>
+  {{ section.content | safe }}
+  {{
+    <article_list pages={paginator.pages} /> }}
+  {% if paginator.number_pagers > 1 %}
+    <nav class="pagination">
+      {% if paginator.previous %}<a href="{{ paginator.previous }}">← {{ trans(key="newer", lang=lang) }}</a>{% endif %}
+      {% if paginator.next %}<a href="{{ paginator.next }}">{{ trans(key="older", lang=lang) }} →</a>{% endif %}
+    </nav>
+  {% endif %}
+{% endblock content %}

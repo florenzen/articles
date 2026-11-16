@@ -1,0 +1,47 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Zola comes from pkg.haus, which builds for Debian, not Ubuntu.
+    container: debian:trixie
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Zola
+        run: sh .devcontainer/install-zola.sh
+
+      - name: Check site
+        run: zola check
+
+      - name: Build site
+        run: zola build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

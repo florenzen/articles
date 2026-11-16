@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "description": "Pinned linters and formatters, run via pre-commit (.pre-commit-config.yaml) and used by the VS Code extensions.",
+  "scripts": {
+    "audit": "better-npm-audit audit"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@taplo/cli": "0.7.0",
+    "better-npm-audit": "4.2.1",
+    "eslint": "10.15.0",
+    "globals": "17.13.0",
+    "markdownlint-cli2": "0.24.1",
+    "prettier": "3.9.10",
+    "stylelint": "17.16.0",
+    "stylelint-config-standard-scss": "17.0.0"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          ".djlintrc",
+          ".nsprc"
+        ],
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
+  }
+}

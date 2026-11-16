@@ -1,0 +1,11 @@
+{% component article_list(pages) %}
+<ul class="article-list">
+  {%- for page in pages %}
+    <li>
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      {%- if page.draft %}<span class="draft">{{ trans(key="draft", lang=page.lang) }}</span>{% endif %}
+    </li>
+  {%- endfor %}
+</ul>
+{% endcomponent article_list %}

@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Zola: serve (with drafts)",
+      "type": "shell",
+      "command": "zola serve --interface 0.0.0.0 --port 1111 --base-url localhost --drafts",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Zola: serve",
+      "type": "shell",
+      "command": "zola serve --interface 0.0.0.0 --port 1111 --base-url localhost",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Zola: build",
+      "type": "shell",
+      "command": "zola build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Zola: check",
+      "type": "shell",
+      "command": "zola check",
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

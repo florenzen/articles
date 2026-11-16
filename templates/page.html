@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
+{% block content %}
+  <article>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p class="meta">
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+        {%- if page.draft %}<span class="draft">{{ trans(key="draft", lang=lang) }}</span>{% endif %}
+      </p>
+    </header>
+    {{ page.content | safe }}
+  </article>
+  <dialog class="lightbox"
+          aria-label="{{ trans(key='image_viewer', lang=lang) }}"
+          data-enlarge="{{ trans(key='enlarge', lang=lang) }}">
+    <div class="lightbox-stage">
+      <img class="lightbox-image" alt="">
+    </div>
+    <p class="lightbox-info">
+      <span class="lightbox-caption"></span> <span class="lightbox-counter"></span>
+    </p>
+    <button type="button"
+            class="lightbox-prev"
+            aria-label="{{ trans(key='previous_image', lang=lang) }}"
+            title="{{ trans(key='previous_image', lang=lang) }}">
+      <span class="icon icon-prev"></span>
+    </button>
+    <button type="button"
+            class="lightbox-next"
+            aria-label="{{ trans(key='next_image', lang=lang) }}"
+            title="{{ trans(key='next_image', lang=lang) }}">
+      <span class="icon icon-next"></span>
+    </button>
+    <button type="button"
+            class="lightbox-close"
+            aria-label="{{ trans(key='close', lang=lang) }}"
+            title="{{ trans(key='close', lang=lang) }}">
+      <span class="icon icon-close"></span>
+    </button>
+  </dialog>
+  <script src="{{ get_url(path='lightbox.js', cachebust=true) }}" defer></script>
+{% endblock content %}

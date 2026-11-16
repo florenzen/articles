@@ -1,0 +1,68 @@
+base_url = "https://florenzen.github.io/articles"
+title = "Articles"
+description = "Articles by Florian Lorenzen"
+default_language = "en"
+
+compile_sass = true
+build_search_index = false
+
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+smart_punctuation = true
+
+[markdown.highlighting]
+theme = "github-light"
+error_on_missing_language = true
+
+[translations]
+feed = "Feed"
+min_read = "min read"
+draft = "draft"
+newer = "Newer"
+older = "Older"
+not_found = "Not found"
+back_to_list = "Back to the article list"
+other_language = "Deutsch"
+theme = "Theme"
+theme_system = "System"
+theme_light = "Light"
+theme_dark = "Dark"
+enlarge = "Enlarge image"
+image_viewer = "Image viewer"
+previous_image = "Previous image"
+next_image = "Next image"
+close = "Close"
+privacy = "Privacy"
+
+[languages.de]
+title = "Artikel"
+description = "Artikel von Florian Lorenzen"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[languages.de.translations]
+feed = "Feed"
+min_read = "Min. Lesezeit"
+draft = "Entwurf"
+newer = "Neuer"
+older = "Älter"
+not_found = "Nicht gefunden"
+back_to_list = "Zurück zur Artikelliste"
+other_language = "English"
+theme = "Farbschema"
+theme_system = "System"
+theme_light = "Hell"
+theme_dark = "Dunkel"
+enlarge = "Bild vergrößern"
+image_viewer = "Bildansicht"
+previous_image = "Vorheriges Bild"
+next_image = "Nächstes Bild"
+close = "Schließen"
+privacy = "Datenschutz"
+
+[extra]
+author = "Florian Lorenzen"
+license = "CC BY 4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"

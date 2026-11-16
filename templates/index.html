@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+  {{ section.content | safe }}
+  {% set articles = get_section(path="articles/_index.md", lang=lang) %}
+  {{
+    <article_list pages={articles.pages} /> }}
+{% endblock content %}
