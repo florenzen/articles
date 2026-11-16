@@ -7,12 +7,15 @@ on:
   workflow_dispatch:
 
 jobs:
+  lint:
+    uses: ./.github/workflows/lint.yml
+
   check:
     runs-on: ubuntu-latest
     # Zola comes from pkg.haus, which builds for Debian, not Ubuntu.
     container: debian:trixie
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Zola
         run: sh .devcontainer/install-zola.sh

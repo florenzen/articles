@@ -1,22 +1,23 @@
 name: Lint
 
+# Not triggered by pushes itself: called from deploy.yml (main) and check.yml (other branches).
 on:
-  push:
+  workflow_call:
   workflow_dispatch:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           # Keep the major version in sync with .devcontainer/devcontainer.json.
           node-version: 24
           cache: npm
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
           cache: pip

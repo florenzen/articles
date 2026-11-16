@@ -16,12 +16,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  lint:
+    uses: ./.github/workflows/lint.yml
+    permissions:
+      contents: read
+
   build:
+    needs: lint
     runs-on: ubuntu-latest
     # Zola comes from pkg.haus, which builds for Debian, not Ubuntu.
     container: debian:trixie
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Zola
         run: sh .devcontainer/install-zola.sh
@@ -32,7 +38,7 @@ jobs:
       - name: Build site
         run: zola build
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
@@ -44,4 +50,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
